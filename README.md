@@ -974,7 +974,7 @@ certain pins. A mimimal UART setup uses two pins, RX (receive) and TX (transmit)
 In a Nucleo board datasheet section 6.9 we see that one of the
 controllers, USART3, is using pins PD8 (TX) and PD9 (RX) and is connected to
 the on-board ST-LINK debugger. That means that if we configure USART3 and
-output data via the PD9 pin, we can see it on our workstation via the ST-LINK
+output data via the PD8 pin, we can see it on our workstation via the ST-LINK
 USB connection.
 
 Thus, let us create a handy API for the UART, the way we did it for GPIO.
