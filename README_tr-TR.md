@@ -946,7 +946,7 @@ UART kurulumunda, RX (alma) ve TX (iletim) olmak üzere iki pin kullanır.
 Bir Nucleo kartı datasheet'inde bölüm 6.9'da, denetleyicilerden biri olan
 USART3'ün PD8 (TX) ve PD9 (RX) pinlerini kullandığını ve yerleşik
 ST-LINK hata ayıklayıcısına bağlı olduğunu görüyoruz.Bu, USART3'ü
-yapılandırırsak ve verileri PD9 pini aracılığıyla aktarırsak ST-LINK
+yapılandırırsak ve verileri PD8 pini aracılığıyla aktarırsak ST-LINK
 USB bağlantısı aracılığıyla bilgisayarımızdan okuyabiliriz.
 
 Bu da bize UART için GPIO ile birlikte bir API oluşturmayı gerektirtiyor.
